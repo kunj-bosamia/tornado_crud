@@ -45,21 +45,20 @@ The application includes proper error handling to ensure smooth operation and in
    ```sh
    git clone <repository_url>
 2. Navigate to the project directory:
-  ```sh
-  Navigate to the project directory:
-3. Create and activate a virtual environment (optional but recommended):
-  ```sh
-  python -m venv venv
-  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-4. Install the required packages:
    ```sh
-   pip install -r requirements.txt
+   cd <project_directory>
+3. Create and activate a virtual environment (optional but recommended):
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+4. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
 
 ## Running the Application Locally
 To run the application locally, execute the following command:
 ```sh
-python app.py
+pip install -r requirements.txt
 ```
-
 ## Conclusion
 This project is designed to help understand the basics of building an asynchronous web application using Tornado, SQLAlchemy[async], and asyncpg. It provides a foundational structure that can be extended with more features, such as user authentication, advanced error handling, and additional routes.
